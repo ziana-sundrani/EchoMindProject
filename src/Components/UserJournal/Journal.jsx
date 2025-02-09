@@ -5,7 +5,7 @@ function Journal() {
     const [entry, setEntry] = useState(''); // State for user input
     const [recommendation, setRecommendation] = useState(''); // State for recommendation
 
-    const API_KEY = "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"
+    const API_KEY =
 
     async function callOpenAIAPI(journal) {
         console.log("Calling the OpenAi API");
